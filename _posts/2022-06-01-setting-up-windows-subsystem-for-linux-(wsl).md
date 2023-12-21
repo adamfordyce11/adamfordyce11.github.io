@@ -66,5 +66,3 @@ For a comprehensive guide on configuring your WSL development environment, refer
 * Integrating WSL with VSCode
 
 Additionally, consider exploring the Windows Terminal, a powerful tool that offers exciting features like working with your linked Azure account and providing a similar experience to the cloud shell. It also allows multiple concurrent terminal windows, which can be very useful.
-
-Happy Linux development on Windows with WSL!
