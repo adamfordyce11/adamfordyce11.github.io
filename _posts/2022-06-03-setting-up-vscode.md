@@ -3,7 +3,7 @@ layout: post
 title: Setting Up Visual Studio Code (VSCode)
 slug: setting-up-vscode
 date: 2022-06-03T10:30:00.000Z
-img: /assets/img/posts/SettingUpVSCode.png
+image: /assets/img/posts/SettingUpVSCode.png
 tags:
   - Visual Studio Code
   - Development Tools
