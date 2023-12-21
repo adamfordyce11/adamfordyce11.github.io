@@ -9,13 +9,9 @@ categories:
   - Static Site
 ---
 
-![Image about setting up Jekyll static site hosted on GitHub](/img/posts/DALL·E%202023-12-21%2020.49.24%20-%20An%20illustrative%20image%20for%20a%20webpage%20about%20setting%20up%20a%20Jekyll%20static%20site%20hosted%20on%20GitHub,%20without%20any%20text.%20The%20image%20captures%20the%20essence%20of%20the%20pr.png)
-
-Originally I wrote a custom PHP application with a MySQL DB and fronted with jquery and styled with bootstrap CSS. This was a fun and interesting project however PHP versions changed, database versions changed, and the libraries for the front end changed so it needed more attention than I have had time to devote towards it. Instead I have come across this Chirpy theme on Jekyll that looks great and requires minimal updates.
-
-This is an initial sample post to get me started.
-
 # Setting Up My Blog Site with Jekyll and Chirpy Theme
+
+![Image about setting up Jekyll static site hosted on GitHub](/assets/img/posts/Jekyll-Site-Setup.png)
 
 ## Introduction
 
