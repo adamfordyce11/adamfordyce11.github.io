@@ -15,7 +15,7 @@ categories:
 
 # Setting up Python
 
-![Setting up Python](/img/posts/SettingUpPython.png)
+![Setting up Python](/assets/img/posts/SettingUpPython.png)
 
 ## Installation
 
