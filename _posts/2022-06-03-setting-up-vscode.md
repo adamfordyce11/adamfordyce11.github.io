@@ -14,7 +14,7 @@ categories:
 
 # Setting Up Visual Studio Code (VSCode)
 
-![Settig up VSCode](/assets/img/posts/SettingUpVSCode.png)
+![Setting up VSCode](/assets/img/posts/SettingUpVSCode.png)
 
 ## Prerequisite
 
