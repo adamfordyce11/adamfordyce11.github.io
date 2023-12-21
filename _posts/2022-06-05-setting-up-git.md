@@ -3,6 +3,7 @@ layout: post
 title: Setting Up Git
 slug: setting-up-git
 date: 2022-06-05T12:00:00.000Z
+image: /assets/img/posts/SettingUpGit.png
 tags:
   - Git
   - Version Control

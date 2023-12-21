@@ -3,6 +3,7 @@ layout: post
 title: Setting up a Jekyll static site, hosted on GitHub
 slug: setting-jekyll-static-site-hosted-github
 date: 2023-12-20T14:02:45.000Z
+image: /assets/img/posts/Jekyll-Site-Setup.png
 tags:
   - Jekyll
 categories:
