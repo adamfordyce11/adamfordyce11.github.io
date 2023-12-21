@@ -3,6 +3,7 @@ layout: post
 title: Setting Up Windows Subsystem for Linux (WSL)
 slug: setting-up-wsl
 date: 2022-06-01T14:02:45.000Z
+image: /assets/img/posts/SettingUpWSL.png
 tags:
   - WSL
   - Linux
@@ -13,6 +14,8 @@ categories:
 ---
 
 # Setting Up Windows Subsystem for Linux (WSL)
+
+![Setting Up WSL](/img/posts/SettingUpWSL.png)
 
 ## TL;DR
 
