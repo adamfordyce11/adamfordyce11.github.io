@@ -15,8 +15,6 @@ categories:
 
 # Setting Up Windows Subsystem for Linux (WSL)
 
-![Setting Up WSL](/assets/img/posts/SettingUpWSL.png)
-
 ## TL;DR
 
 ```powershell

@@ -15,8 +15,6 @@ categories:
 
 # Setting up Python
 
-![Setting up Python](/assets/img/posts/SettingUpPython.png)
-
 ## Installation
 
 To begin, set up your project directory and install Python along with its essential packages.

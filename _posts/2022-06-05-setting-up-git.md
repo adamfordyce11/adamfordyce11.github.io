@@ -14,8 +14,6 @@ categories:
 
 # Setting Up Git
 
-![Setting up Git](/assets/img/posts/SettingUpGit.png)
-
 ## TL;DR
 
 ```bash

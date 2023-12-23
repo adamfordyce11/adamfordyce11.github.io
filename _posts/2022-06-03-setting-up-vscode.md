@@ -14,8 +14,6 @@ categories:
 
 # Setting Up Visual Studio Code (VSCode)
 
-![Setting up VSCode](/assets/img/posts/SettingUpVSCode.png)
-
 ## Prerequisite
 
 Before setting up VSCode, make sure you have already set up WSL and installed the Ubuntu 20.04 version.

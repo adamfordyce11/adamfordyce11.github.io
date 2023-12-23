@@ -12,8 +12,6 @@ categories:
 
 # Setting Up My Blog Site with Jekyll and Chirpy Theme
 
-![Image about setting up Jekyll static site hosted on GitHub](/assets/img/posts/Jekyll-Site-Setup.png)
-
 ## Introduction
 
 In this post, I'd like to share the history of my previous profile site and the reasons behind migrating to a new one based on Jekyll with the Chirpy theme. Additionally, I'll provide a step-by-step guide on how to set up your own site with the same configuration.
