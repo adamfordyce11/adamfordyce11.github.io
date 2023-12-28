@@ -3,7 +3,6 @@ layout: post
 title: Use Ansible to create a IKEv2 VPN server using StrongSwan
 slug: ansible-create-ikev2-vpn-server-strongswan
 date: 2023-12-28T14:02:45.000Z
-draft: true
 image: /assets/img/posts/VPNSetupStrongSwan.png
 tags:
   - IKEv2
@@ -12,7 +11,7 @@ tags:
   - StrongSwan
   - PKI
 categories:
-  - How To
+  - How To Guide
   - Security
 ---
 
