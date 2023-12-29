@@ -44,7 +44,14 @@ Once the VPN server is up and running in order to have some control over the tra
 
 ### Prerequisites
 
-An Ubuntu 22.04 server is required
+- An Ubuntu 22.04 server is required
+- The IP address of the server is required
+- The ssh private key for accessing the server should be available
+-
+
+> Note, please see the following guide on setting up a basic AWS environment which will provide
+
+### Define the Ansible Playbook
 
 Prepare the Ansible playbook, the inventory can be created later on
 
@@ -64,7 +71,7 @@ sudo apt update
 sudo apt install strongswan strongswan-pki libcharon-extra-plugins libcharon-extauth-plugins libstrongswan-extra-plugins
 ```
 
-### The Ansible output
+#### Converting the manual steps over to Ansible to update the system and to install the required packages
 
 ```yaml
     - name: Update Packages
@@ -101,7 +108,7 @@ pki --self --ca --lifetime 3650 --in ~/pki/private/ca-key.pem --type rsa --dn "C
 
 Converting this to Ansible would work well inside a block, later on this could be conditionally executed.
 
-### Ansible output
+#### Ansible output
 
 ```yaml
     - name: Create a Certificate Autority
@@ -137,13 +144,13 @@ Converting this to Ansible would work well inside a block, later on this could b
 
 > This is a like for like equivalent of what is in the Digital Ocean blog post, later on this will be updated to use openssl directly.
 
-## Step 3 - Generating a Certificate for the VPN server
+### Step 3 - Generating a Certificate for the VPN server
 
 ```bash
 pki --gen --type rsa --size 4096 --outform pem > ~/pki/private/server-key.pem
 ```
 
-### Ansible output
+#### Ansible generating a certificate for the VPN server
 
 ```yaml
         # Still inside the block ...
@@ -178,7 +185,7 @@ pki --gen --type rsa --size 4096 --outform pem > ~/pki/private/server-key.pem
 | --cacert | This is the root certificates CA certificate |
 | --outform | This is saying to output the resulting certificate into a [PEM file](https://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file) |
 
-### Ansible output
+#### Ansible rescue section in the event the certificates are not generated correctly
 
 ```yaml
       rescue:
@@ -212,7 +219,7 @@ The final part to preparing the certificate authority is to copy the SSL/TLS fil
 sudo cp -r ~/pki/* /etc/ipsec.d/
 ```
 
-### Ansible output
+#### Ansible steps to copy the generated certificates to the remote server
 
 ```yaml
     - name: Copy all of the TLS/SSL files into the /etc/ipsec.d/ directory
@@ -234,3 +241,6 @@ sudo cp -r ~/pki/* /etc/ipsec.d/
           mode: '0600'
 ```
 
+### Step 4 - Configure StrongSwan
+
+[StrongSwan is an OpenSource modular and portable IPsec based VPN solution.](https://strongswan.org/)
